@@ -8,10 +8,6 @@ import { Select, Label } from '../../Components/Inputs/styles';
 
 const Actualizar = () => {
 
-
-
-
-
     //Mehotd for sent data to API
     const handleSubmit = async (e) => {
         e.preventDefault();

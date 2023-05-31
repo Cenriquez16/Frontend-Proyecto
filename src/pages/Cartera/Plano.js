@@ -22,7 +22,7 @@ const paginacionOpciones = {
 const Plano = () => {
 
     const [cartera, setData] = useState([]);
-    const URL = 'http://localhost:4000/api/vistaplano'
+    const URL = `${process.env.REACT_APP_API}/api/vistaplano`
 
 
     const showData = async () => {
