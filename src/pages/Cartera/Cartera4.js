@@ -12,11 +12,10 @@ const Cartera4 = () => {
 
 
     const Relacionar = async () => {
-        const URL = 'http://localhost:4000/api/rel'
+        const URL = `${process.env.REACT_APP_API}/api/rel`
         await fetch(URL)
     }
       
-
     const [disable, setDisable] = React.useState(false);
 
     return (

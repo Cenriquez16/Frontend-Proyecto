@@ -27,7 +27,7 @@ import {
 //,[Fecha]
 //,[Hora]
 
-const URL = 'http://localhost:4000/api/cartera'
+const URL = `${process.env.REACT_APP_API}/api/cartera`
 
 const showData = async () => {
 
